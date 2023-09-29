@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#94B6ECF3"
     tools:context=".padariareal">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="652dp"
+        android:layout_width="375dp"
+        android:layout_height="635dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,16 +24,16 @@
 
         <ImageView
             android:id="@+id/image"
-            android:layout_width="wrap_content"
-            android:layout_height="113dp"
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
             android:src="@drawable/padariareal1"
             tools:ignore="MissingConstraints" />
 
         <ImageView
 
             android:id="@+id/image2"
-            android:layout_width="wrap_content"
-            android:layout_height="113dp"
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
             android:src="@drawable/padariareal2"
             tools:ignore="MissingConstraints" />
 
@@ -40,7 +41,10 @@
             android:id="@+id/bntSite2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/bntsite" />
+            android:text="@string/bntsite"
+            android:textColorLink="#FF9800"
+            app:icon="@android:color/holo_orange_dark"
+            app:rippleColor="#FF9800" />
 
         <Button
             android:id="@+id/bntLigar2"

@@ -4,24 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#6ABC9CF4"
     tools:context=".MainActivity">
 
 
     <LinearLayout
-        android:layout_width="334dp"
-        android:layout_height="785dp"
+        android:layout_width="344dp"
+        android:layout_height="726dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.207"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Ao saborear uma xícara de café, embarcamos em uma jornada de prazer e sabor. Seja ao amanhecer, acompanhando a rotina agitada. "
+            android:layout_height="130dp"
+            android:text="@string/textmenu"
             android:textSize="20sp" />
 
         <TextView
@@ -33,7 +34,7 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="113dp"
             android:src="@drawable/cafecomgato"
             tools:ignore="MissingConstraints" />
@@ -83,5 +84,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/bntsaibamais" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
